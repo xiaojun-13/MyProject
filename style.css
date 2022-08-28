@@ -1,0 +1,99 @@
+body{
+    background-image: url(australia.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0; /*设置这个为了摆脱水平滚动条*/
+    color:white;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#information input{
+    margin: 14px auto 20px auto;
+    width:100%;
+    border-radius: 5px;
+    border:1px solid rgba(172, 189, 201, 0.5);
+    line-height:1.8rem;
+    font-size: 17px;
+}
+
+#platform{
+    font-style:italic;
+}
+
+.form-control{
+    width: 88%;
+    padding: 1rem;  
+    margin:0 auto 10 auto;
+    line-height:30px;
+}
+
+h1{
+    padding-top:30px;
+    margin-bottom: -5px;
+}
+#platform{
+    padding-bottom:30px;
+}
+h1,#platform{
+    text-align: center;
+}
+
+form{
+    width:60vw;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding:2rem 10px;
+    min-width: 300px;
+    background-color: rgba(78, 134, 171, 0.5);
+}
+
+label{
+    display: block;
+}
+
+select,textarea,button{
+    width:100%;
+    border-radius: 5px;
+    border:1px solid rgba(172, 189, 201, 0.5);
+    min-height:2rem;
+    color:rgb(64, 64, 69);
+    font-size: 17px;
+}
+
+div{
+    margin:auto;
+    width:100%;
+}
+
+#comments{
+    width:100%;
+    height:50px;
+    margin:0 auto 25px auto;
+}
+
+.submit-button{
+    font-size: 19px;
+    font-weight: 600;
+    color:white;
+    background-color: rgba(63, 114, 150, 0.715);
+}
+
+button:hover{
+    background-color:rgb(37, 96, 164);
+}
+
+span{
+    font-size: 13px;
+}
+
+
+
+
+
+
+    
+
+
+
